@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/news"
+        android:enabled="true"
+        android:icon="@drawable/baseline_feed_black_24dp"
+        android:title="새 소식"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/namesearch"
+        android:enabled="true"
+        android:icon="@drawable/baseline_search_black_24dp"
+        android:title="검색"
+        app:showAsAction="always"
+        />
+</menu>
